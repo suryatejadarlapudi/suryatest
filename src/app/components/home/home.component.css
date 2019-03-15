@@ -1,0 +1,22 @@
+.login_card_outer_main{padding: 10px 0;}
+.login_card{background: none;border: none;}
+.login_card-body{padding:0;}
+.login_card-body form{padding:1.25rem;}
+.login_card-body .card-title{padding: 10px 0 !important;text-align: center;margin: 0 auto !important;background:#f2efdc;border-radius: 10px 10px 0 0;}
+.login_card-body form{background: #447a8c;border-radius: 0 0 10px 10px;}
+.custom_card_div{flex: 0 0 65%;max-width: 65%;}
+.login_button{background: #6ea9ac;}
+.register_button{background: #f2efdc;}
+.button_groups button{color: #000;}
+.save_check_forgot_link{color: #fff;}
+.save_check_forgot_link a{color: #fff;}
+.btn.focus, .btn:focus {box-shadow: none;}
+.email_input_group{margin-bottom: 1rem;}
+.email_input_group_label{width: 10%;background: #6ea9ac;border-radius: 0.25rem 0 0 0.25rem;}
+.email_input_group_label i{position: relative;top: 50%;left: 50%;transform: translate(-50%,-75%);color: white;}
+.password_input_group{margin-bottom: 1rem;}
+.password_input_group_label{width: 10%;background: #6ea9ac;border-radius: 0.25rem 0 0 0.25rem;}
+.password_input_group_label i{position: relative;top: 50%;left: 50%;transform: translate(-50%,-75%);color: white;}
+.btn_show_paswd{background: #fff;border: 1px solid #ced4da;border-left: none;}
+.btn_show_paswd i{color: #6ea9ac;}
+.password_input_group .form-control:focus{box-shadow: none;border-right: none;}

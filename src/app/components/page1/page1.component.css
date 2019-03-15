@@ -1,0 +1,34 @@
+.document_card_outer_main{padding: 10px 0;}
+.document_card{background: none;border: none;}
+.document_card-body{padding:0;}
+.document_card-body form{padding:1.25rem;}
+.document_card-body .card-title{padding: 10px 0 !important;text-align: center;margin: 0 auto !important;background:#f2efdc;border-radius: 10px 10px 0 0;}
+.document_card-body form{background: #199989;border-radius: 0 0 10px 10px;}
+.custom_card_div{flex: 0 0 65%;max-width: 65%;}
+/* .login_button{background: #6ea9ac;}
+.register_button{background: #f2efdc;}
+.button_groups button{color: #000;} */
+.btn.focus, .btn:focus {box-shadow: none;}
+.id_input_group{margin-bottom: 1rem;}
+.id_input_group_label{width: 10%;background: #6ea9ac;border-radius: 0.25rem 0 0 0.25rem;}
+.id_input_group_label i{position: relative;top: 50%;left: 50%;transform: translate(-50%,-75%);color: white;}
+.calender_input_group{margin-bottom: 1rem;}
+.calender_input_group_label{width: 10%;background: #6ea9ac;border-radius: 0.25rem 0 0 0.25rem;}
+.calender_input_group_label i{position: relative;top: 50%;left: 50%;transform: translate(-50%,-75%);color: white;}
+.btn_show_calender{background: #fff;border: 1px solid #ced4da;border-left: none;}
+.btn_show_calender i{color: #6ea9ac;}
+.calender_input_group .form-control:focus{box-shadow: none;border-right: none;}
+.form_field_style{height: calc(1.75rem + 2px);}
+.document_preview .row{padding: 5px;background: #fff;border-radius: 5px;}
+.btn_circular_green{border-radius: 25px;background: #abc700;margin-right: 5%;}
+.btn_circular_red{border-radius: 25px;background: #ef2039;margin-left: 5%;}
+.addn_subtn{width: 45%;margin: 0 auto;text-align: center;}
+#right, #left {
+	width: 50px;
+}
+
+#container {
+
+	white-space:normal;
+}
+

@@ -1,0 +1,126 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<p>
+  page1 works!
+</p>
+
+
+
+
+
+<div id="container">
+    <div
+      ng2-carouselamos
+      class="slides-wrapper"
+      [items]="items"
+      [width]="900"
+      [$prev]="prev"
+      [$next]="next"
+      [$item]="item"
+    >
+    </div>
+  
+  
+  <ng-template #prev>
+    <!-- <img src="assets/right-arrow.png" id="left" /> -->
+    <i class="fa fa-angle-left" aria-hidden="true" style="font-size: 4rem;"></i>
+  </ng-template>
+  <ng-template #next>
+    <!-- <img src="assets/left-arrow.png" id="right" /> -->
+    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 4rem;"></i>
+  </ng-template>
+  <ng-template #item let-item let-i="index">
+  
+
+    <div id="contentInside" *ngFor="let container of containers">
+
+
+        <div class="card document_card">
+            <article class="card-body document_card-body">
+
+            <h4 class="card-title mb-4 mt-1">Document Upload</h4>
+              <form>
+
+                <div class="input-group id_input_group">
+                  <span class="input-group-label id_input_group_label">
+                    <i class="fa fa-user"></i>
+                  </span>
+                  <input class="input-group-field form-control form_field_style" type="id" placeholder="">
+                </div>
+
+
+
+                <div class="input-group calender_input_group">
+                  <span class="input-group-label calender_input_group_label">
+                    <i class="fa fa-calendar"></i>
+                  </span>
+                  <input class="input-group-field form-control form_field_style" type="calender" placeholder="">
+                  <div class="input-group-append">
+                    <button class="btn form-control btn_show_calender form_field_style" type="button">
+                      <i class="fa fa-calendar"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="input-group id_input_group">
+                  <span class="input-group-label id_input_group_label">
+                    <i class="fa fa-clone"></i>
+                  </span>
+                  <!-- <input class="input-group-field form-control" type="id" placeholder=""> -->
+                  <select class="input-group-field form-control form_field_style" id="sel1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                </div>
+
+                <div class="form-group"> 
+                  <div class="document_preview">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="document_list_image"><img src="../../../assets/left-arrow.png" style="width:50%;"/></div>
+                      </div>
+                      <div class="col-md-9"></div>
+                    </div>
+                  </div>
+                </div> 
+                
+                <div class="form-group">
+                  <div class="addn_subtn">
+                    <a href="#" onclick="" class="btn btn-primary btn_circular_green"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    <a href="#" onclick="" class="btn btn-danger btn_circular_red"><i class="fa fa-minus" aria-hidden="true"></i></a>
+                  </div>
+                </div>   
+                                                                  
+              </form>
+            </article>
+          </div>
+
+
+
+    </div>
+
+
+
+
+    <div id="contentInside">
+
+
+        <div class="card document_card">
+            <article class="card-body document_card-body">
+
+            <h4 class="card-title mb-4 mt-1">Document Upload</h4>
+              <form class="add_new_doc" style="height: 322.8px;text-align: center;" (click)="add()">
+                  <i class="fa fa-plus" aria-hidden="true" style="position: relative;top:15%;font-size: 12rem;color: #fff;"></i>
+              </form>
+            </article>
+          </div>
+
+
+
+    </div>
+    <!-- <button (click)="add()">Add</button> -->
+
+  
+  </ng-template>
+  

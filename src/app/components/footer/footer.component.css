@@ -1,0 +1,91 @@
+@media (min-width: 1025px){
+  div.footer_div{
+      background: #003a3d;
+      min-height: 8vh;
+      max-height: 8vh;
+      height: 8vh;
+  }
+  
+  div.social_icons img{
+      width: 18px;
+      height: 18px;
+      position: relative;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+  }
+  /*.THIS .fb_ft{
+    margin-right: 7px;        
+  }*/
+  .yt_ft, .line_ft, .insta_ft, .twt_ft, .linkd_ft{
+      margin: 0 7px;
+  } 
+  
+  .footer_ht {
+      min-height: 8vh;
+      max-height: 8vh;
+      height: 8vh;
+  }
+      
+  .margin_lft{
+    margin: 0 5.77777% 0 2.5%;
+  }    
+      
+  .align_copy{
+      position: relative;
+      right: 7%;
+      display: grid;
+      justify-content: end;
+  }    
+  
+  p#copy_right_en{
+      margin: 0;
+      font-size: 10px;
+      text-align: center;
+      color: #fff;
+  }
+  
+  p#policies_en{
+      font-size: 10px;
+    text-align: right;
+      color: #7CB600;
+      margin: 0;
+  }
+  
+  p#policies_en a{
+      color: #7CB600;
+  }
+  
+  p#copy_right_th{
+      margin: 0;
+      font-size: 10px;
+      text-align: center;
+      color: #fff;
+  }
+  
+  p#policies_th{
+      font-size: 10px;
+    text-align: right;
+      color: #7CB600;
+      margin: 0;
+  }
+  
+  p#policies_th a{
+      color: #7CB600;
+  }
+  
+  .copy_rights {
+      position: relative;
+      font-family: omnes-pro; 
+      font-weight: 600;
+      font-style: normal;
+     /* left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);*/
+      top: 25%;
+  }
+  
+  .cursy_sty_ftr{
+      cursor: pointer;
+  }
+  }
