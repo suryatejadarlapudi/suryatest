@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "postinstall": "ng build --aot -prod",
     "start": "ng build && node ./bin/www",
     "build": "ng build",
     "test": "ng test",
@@ -32,7 +33,6 @@
     "jquery": "^3.3.1",
     "ng2-carouselamos": "^3.2.0",
     "ngx-bootstrap": "^3.2.0",
-    "ngx-slick-carousel": "^0.4.4",
     "path": "^0.12.7",
     "pg": "^7.8.0",
     "rxjs": "~6.3.3",

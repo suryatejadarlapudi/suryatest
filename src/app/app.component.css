@@ -1,0 +1,19 @@
+.fixed-location {
+ 
+  width: 100%;
+height: 100%;
+  background-size: cover;
+  
+  flex-direction: column;
+  flex-flow: column;
+ 
+ 
+}
+
+
+
+.filled {
+    flex-grow: 1;
+    max-height: 84vh;
+    min-height: 84vh;
+}

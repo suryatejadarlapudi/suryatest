@@ -1,3 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
 <div class="row">
@@ -15,20 +30,33 @@
           
       </div>
     </div> -->
+    <div class="col-md-8 offset-md-2">
+        <div class="row"><h3 style="text-align: center;width: 100%;">Select Role</h3></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="for_progress" style="width:100%;height: 45px;background:#65c362;"></div>
+            </div>
+        </div>
+    </div>
+    
 
     
 
-
-
-    <div class="col-md-6 offset-md-3">
-
-        <img src="../../../assets/img/WSN_DTR_Home_Digital_Thai_Rice_right_image.svg" class="dtr_right_image in_active_dtr_on_hover r_img" style="width: 95%;"/>                      
-  
-      </div>
-      <button type="button" class="form-control" (click)="navigate()" style="background: #f2efdc;width:100px;">Verify OTP</button>
+    <div class="col-md-6 offset-md-3"  style=" position:relative; display:block; width: 1000px">
+      <div id="Container"
+      style=" position:relative; display:block; width: 100%">
+      <iframe id="ViostreamIframe" 
+       width="100%" height="500px" 
+       src="../assets/stage.svg"
+       frameborder="0" allowfullscreen=""
+       style="position:absolute; top:0; left: 0"></iframe>
+     </div>
+      
+    <div class="col-md-3 offset-md-6">
+      <button type="button" class="form-control" (click)="navigate()" style="background: #6ea9ac;width:25%;float: right;color: #fff;">Next</button>
+    </div>
+    
 </div>
-
-
 
 
 

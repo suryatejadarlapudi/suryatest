@@ -24,7 +24,6 @@ import { OtpPage2Component } from './components/otp-page2/otp-page2.component';
 import { RoleselectionComponent } from './components/roleselection/roleselection.component';
 import { GooglemapsComponent } from './components/googlemaps/googlemaps.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +39,6 @@ import { GooglemapsComponent } from './components/googlemaps/googlemaps.componen
     OtpPage2Component,
     RoleselectionComponent,
     GooglemapsComponent
-    
 
   ],
   imports: [
